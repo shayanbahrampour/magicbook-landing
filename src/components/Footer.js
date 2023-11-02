@@ -5,8 +5,7 @@ export default function Footer() {
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <p class="max-w-xs mt-4 text-sm text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-              accusantium.
+              Download MagicBook today and start reading like magic!
             </p>
             <div class="flex mt-8 space-x-6 text-gray-600">
               <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
@@ -86,7 +85,7 @@ export default function Footer() {
             <div>
               <p class="font-medium">Company</p>
               <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a class="hover:opacity-75" href>
+                <a class="hover:opacity-75" href='about'>
                   {" "}
                   About{" "}
                 </a>
@@ -94,76 +93,23 @@ export default function Footer() {
                   {" "}
                   Meet the Team{" "}
                 </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  History{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  Careers{" "}
-                </a>
-              </nav>
-            </div>
-            <div>
-              <p class="font-medium">Services</p>
-              <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  1on1 Coaching{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  Company Review{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  Accounts Review{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  HR Consulting{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  SEO Optimisation{" "}
-                </a>
               </nav>
             </div>
             <div>
               <p class="font-medium">Helpful Links</p>
               <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a class="hover:opacity-75" href>
+                <a class="hover:opacity-75" href='contact'>
                   {" "}
                   Contact{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  FAQs{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  Live Chat{" "}
                 </a>
               </nav>
             </div>
             <div>
               <p class="font-medium">Legal</p>
               <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a class="hover:opacity-75" href>
+                <a class="hover:opacity-75" href='privacy'>
                   {" "}
                   Privacy Policy{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  Terms &amp; Conditions{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  Returns Policy{" "}
-                </a>
-                <a class="hover:opacity-75" href>
-                  {" "}
-                  Accessibility{" "}
                 </a>
               </nav>
             </div>

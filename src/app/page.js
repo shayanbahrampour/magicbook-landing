@@ -1,27 +1,26 @@
 "use client";
 import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
+  BookmarkIcon,
+  ShareIcon,
+  BoltIcon
 } from "@heroicons/react/20/solid";
 const features = [
   {
-    name: "Push to deploy.",
+    name: "Bookmarks and highlights.",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: CloudArrowUpIcon,
+      "Bookmark important passages and highlight key points for easy reference.",
+    icon: BookmarkIcon,
   },
   {
-    name: "SSL certificates.",
+    name: "Sharing.",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: LockClosedIcon,
+      "Share your favorite passages and quotes with friends and family on social media.",
+    icon: ShareIcon,
   },
   {
-    name: "Database backups.",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ServerIcon,
+    name: "Finish Them.",
+    description: "Finish your reads without getting tired.",
+    icon: BoltIcon,
   },
 ];
 
@@ -49,22 +48,15 @@ export default function Home() {
               Efficient Way
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              Read books one paragraph at a time for a more focused and engaging
+              reading experience.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
                 className="rounded-md bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:opacity-75 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Download MagicBook
-              </a>
-              <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-gray-900 hover:opacity-75"
-              >
-                Learn more <span aria-hidden="true">→</span>
+                Go To MagicBook (PWA)
               </a>
             </div>
           </div>
@@ -94,9 +86,15 @@ export default function Home() {
                   A better workflow
                 </p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Maiores impedit perferendis suscipit eaque, iste dolor
-                  cupiditate blanditiis ratione.
+                  MagicBook helps you read faster, comprehend more, and finish
+                  more books.
+                </p>
+                <p className="mt-10 text-lg leading-8 text-gray-600">
+                  MagicBook is a revolutionary new ebook reader that makes
+                  reading more magical than ever before. With MagicBook, you can
+                  read books one paragraph at a time, with the option to add an
+                  image to each paragraph. This helps you to stay focused and
+                  engaged, and to comprehend the material more easily.
                 </p>
                 <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                   {features.map((feature) => (

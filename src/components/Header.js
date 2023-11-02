@@ -1,13 +1,13 @@
 "use client";
-
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
+  { name: "Home", href: "/" },
   { name: "Product", href: "/product" },
-  { name: "Features", href: "#" },
   { name: "Our Team", href: "/team" },
+  { name: "Contact Us", href: "/contact" }
 ];
 
 export default function Header() {

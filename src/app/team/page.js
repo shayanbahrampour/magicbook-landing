@@ -3,23 +3,18 @@
 const people = [
   {
     name: "Shayan Bahrampour",
-    role: "Co-Founder / CEO",
-    imageUrl: "/shaw.jpeg",
-  },
-  {
-    name: "Mehdi Nasr",
-    role: "Co-Founder / CPO",
+    role: "Founder / CEO",
     imageUrl: "/shaw.jpeg",
   },
   {
     name: "Ali Behnia",
     role: "Content Manager",
-    imageUrl: "/shaw.jpeg",
+    imageUrl: "/ali.jpg",
   },
   {
     name: "Shapour Rahimpour",
     role: "CTO",
-    imageUrl: "/shaw.jpeg",
+    imageUrl: "/shapour.jpg",
   },
 ];
 
@@ -32,8 +27,10 @@ export default function Team() {
             Meet our leadership
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae
-            elementum enim vitae ullamcorper suspendisse.
+            We are proud to be a part of the growing community of ebook readers,
+            and we are committed to providing our users with the best possible
+            reading experience. We believe that MagicBook is the future of ebook
+            reading, and we are excited to see what the future holds.
           </p>
         </div>
         <ul
