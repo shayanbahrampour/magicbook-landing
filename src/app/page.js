@@ -1,9 +1,5 @@
 "use client";
-import {
-  BookmarkIcon,
-  ShareIcon,
-  BoltIcon
-} from "@heroicons/react/20/solid";
+import { BookmarkIcon, ShareIcon, BoltIcon } from "@heroicons/react/20/solid";
 const features = [
   {
     name: "Bookmarks and highlights.",
@@ -113,13 +109,20 @@ export default function Home() {
                 </dl>
               </div>
             </div>
-            <img
-              src="mockup.png"
-              alt="Product screenshot"
-              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 xl:mb-10 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-              width={2432}
-              height={1442}
-            />
+            <sheet
+              className="w-[48rem] max-w-none rounded-md shadow-xl ring-1 xl:mb-10 ring-gray-400/10 sm:w-[50rem] md:-ml-4 lg:-ml-0 overflow-hidden"
+              height="90%"
+              min-width="35%"
+              color="transparent"
+            >
+              <iframe
+                src="https://my.spline.design/iphone14procopy-8ee44a2e97cc4fd7d1f2b1e897c3b90e/"
+                frameborder="0"
+                width="100%"
+                className="sm:pb-16"
+                height="120%"
+              ></iframe>
+            </sheet>
           </div>
         </div>
       </div>
